@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya";
+}
+.f-section{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1)), url(assest/drew-coffman-1872.jpg);
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding: 1rem 0;
+    background-image: linear-gradient(rgba(0,0,0,0.1)), url(assest/drew-coffman-1872.jpg);
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    width: 11rem;
+    height: 3rem;
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+    font-family: "Alegreya";
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+a:hover{
+    color: #E0B965;
+}
+.f-section div{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.f-section div p{
+    font-family: "Alegreya Sans";
+    margin: 1.2rem 0;
+    font-size: 1.2rem;
+}
+.f-section div h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+button{
+    font-family: "Alegreya Sans";
+    padding: 1rem 2rem;
+    margin: .5rem;
+    border-radius: 5px;
+    border-color: transparent;
+    text-transform: capitalize;
+    transition: 0.3s ease-in-out;
+}
+.f-button{
+    background-color: #8e7754;
+    color: white;
+}
+.s-button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.f-button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    scale: 1.1;
+}
+.s-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    scale: 1.1;
+}
+.s-section{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 75px; 
+
+}
+.s-section div{
+    width: 30%;
+}
+.s-section div img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    transform: translate(0,8%);
+}
+.content h2{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    font-weight: 300;
+    opacity: .7;
+}
+.content p{
+    opacity: .7;
+    margin: 2rem 0;
+}
+.t-section{
+    background-color: #F8F8F8;
+    padding: 5rem 0;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    align-items: center;
+}
+.t-section div {
+    width: 30%;
+}
+.t-section div img{
+    width: 100%;
+}
+.three-divs{
+    width: 100%;
+}
+.three-divs div{
+    width: 20%;
+    text-align: center;
+}
+.three-divs div h5{
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    padding: 1rem 0;
+}
+.fo-section div img{
+    width: 100%;
+}
+.fo-section div h1{
+    font-family: "Alegreya Sans";
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 2rem;
+}
+.fo-section div p{
+    padding: 2.4rem 0;
+    font-family: "Alegreya Sans";
+    width: 100%;
+    opacity: .4;
+    font-size: 1.1rem;
+    display: inline-block;
+    text-align: center;
+}
+.fo-section{
+    margin: 2rem 0;
+}
+.fo-section div h5+p{
+    padding: 1rem 0;
+}
+.three-divs{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
